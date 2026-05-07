@@ -1,0 +1,24 @@
+# Built artifacts
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.keystore
+
+# Keystore secrets
+*.jks
+*.p12
+
+# IDE
+.fleet/
+*.swp
+
+# Wrapper jar — wird beim ersten ./gradlew-Lauf nachgeladen
+gradle/wrapper/gradle-wrapper.jar
